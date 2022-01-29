@@ -28,6 +28,6 @@ function insertionSort(a):
   for i = 1 to n - 1
     j = i - 1
     while j ⩾ 0 and a[j] > a[j + 1] 
-      swap(a[j], a[j + 1]) ***//Функция swap меняет местами элементы a[j] и a[j + 1]***
+      swap(a[j], a[j + 1]) //Функция swap меняет местами элементы a[j] и a[j + 1]
       j--
 ```
